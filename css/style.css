@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+.block-map{
+	max-width: 1120px;
+	margin: 0 auto;
+	background: no-repeat url("../img/bg.png");
+	height: 750px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.block-map__another-continent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.block-map__continent{
+	height: 50%;
+	max-width: 50%;
+	padding: 0 25px;
+
+}
+.block-map__continent--usa{
+	height: 100%;
+	background:rgba(18, 84, 129, 0.6);
+	max-width: 33.333%;
+	padding: 0 25px;}
+
+.block-map__country{
+	background: rgba(24, 69, 99, 0.7);
+	width: 324px;
+	margin: 0 auto;
+
+}
+.block-map__country-item{
+	background: no-repeat url("../img/flag.png")
+}
+h1{
+	text-align: center;
+	font-size: 39px;
+}
+
+h2{
+	padding: 15px 0 15px 105px;
+	font-size: 30px;
+}
+h3{
+	margin: 40px 0 20px 0 ;
+	font-size: 27px;
+}
+.city--ny{
+	background: no-repeat url("../img/ny.png");
+	padding: 10px 0 10px 70px;
+}
+.city--chicago{
+	background: no-repeat url("../img/chicago.png");
+	padding: 10px 0 35px 70px;
+}
+.block-map__continent--europe{
+	background: rgba(130, 59, 131, 0.6);
+}
+.block-map__country-france{
+	background: rgba(90,39,95, 0.7);
+}
+.block-map__continent--asia{
+	background: rgba(155, 56,57, 0.6);
+}
+.block-map__country-china{
+	background: rgba(113,31,31, 0.7);
+}
+.block-map__continent--africa{
+	background: rgba(234,227,44, 0.6);
+}
+.block-map__country-uar{
+	background: rgba(154,163,50, 0.7);
+}
+.block-map__continent--australia{
+	background: rgba(219,155,70, 0.6);
+}
+.block-map__country-australia{
+	background: rgba(156,111,55, 0.7);
+}
